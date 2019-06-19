@@ -1,0 +1,178 @@
+
+body {color:#666; font-size:13px;font-family:Helvetica;}
+
+/*
+For clarity's sake there is a separate style sheet for the report
+these styles can be rolled up into the main style sheet at a later date
+BEM - IDMO 10.31.08
+*/
+
+
+/* for printing freelink so it fits the page */
+#container {
+margin:13px auto 0;
+position:relative;
+text-align:left;
+width:52em;
+
+}
+
+#container #homeMainContent {
+display:block;
+margin:0;
+width:55.88em;
+float:left;
+
+}
+
+
+#homeMainContent #doc910 {
+width:52em;
+background-image:none;
+}
+
+#bd,#doc, #doc2, #doc3, #doc4, .yui-t1, .yui-t2, .yui-t3, .yui-t4, .yui-t5, .yui-t6, .yui-t7 {
+min-width:50em;
+margin: auto;
+text-align:left;
+width:52em;
+}
+
+#score-summary .box {padding:10px; border:1px solid #0064B3; margin-bottom:25px;}
+
+#homeMainContent .porsche {
+width:640px;
+padding:0;
+}
+
+
+ .printsmall {
+width: 620px;	
+}	
+/*  end print freelink   */
+
+
+/* Set paragraph values for the whole doc */
+p {margin-bottom: .3em;}
+.summary-list a {color:#000;font-weight: bold;text-decoration: none;}
+
+/* Section describes all the boxes in the report */
+/* .section {margin:8px 0;} */
+
+.section table {width: 100%;}
+.section th {border-bottom: 1px solid #555;}
+.section td img {margin: 0 25px;}
+.section .bottom {border-bottom: none;}
+
+#homeMainContent .section .top h3 {color: #000; font-size: 18px; font-weight:bold;}
+
+
+
+
+ h3 {color: #000; padding: 0px 4px; font-size: 14px;}
+
+/*For alerting users that a row contains information they should know about
+flagged is intentionally neutral
+*/
+
+
+.flagged td {font-weight: bold; font-size:115%;}
+.flagged td a {text-decoration: none;color:red;}
+
+/* Special class just to make the table columns with checkmarks line up nicer */
+.check-header {width:15%;}
+
+/* Formatting for the first couple words of section paragraphs. */
+
+
+.lead-in {font-size: 123%;font-weight: bold;}
+.checks-out {color:#1f991f;}
+.info-reported {color:#27438b;}
+.warning {color: #bd0000;}
+
+/* For the boxes on the top right side */
+
+
+#doc-title {font-size: 10px;}
+
+/* For the vin summary values */	
+.value {font-weight: bold;color: #000;}	
+
+.hide-details {
+	color: #000; 
+	text-decoration: none; 
+	margin: 3px; 
+	padding: 2px 2px 2px 18px; 
+	display: block; 
+	float: right;}
+	
+/* Hidden */
+#formnav, #upgrade, #print-button, #ft, .report-tiles p a, .hide-details, #price-box, button, .links {display: none;}	
+
+a {text-decoration: none;}	
+
+img#score-box {}
+img#buyback {float: left; margin-right: 40px;}
+#auto-score {color:#FFF;font-size:38px;font-weight:bold; position: relative; right: 50px; top: 10px; z-index: 1000;}
+#buyback-box {margin-top: 20px;}
+#dealer-functions {display: none}
+
+.flagged td {background-color: #fdfbe1; color:red;font-weight: bold}
+
+/*removes all padding for the dynamic score tile table    */
+#score-tile {padding-bottom:4px;}
+#score-tile td {padding: 0; vertical-align:top;}
+#score-tile tr {padding: 0;vertical-align:top;}
+#score-tile table {padding: 0;}
+
+.noPrint {display:none;}
+
+#vin-summary-left tr td {padding: 4px 0;}
+
+
+#homeMainContent h3 {border:none;}
+
+#bbpCert {display:none;}
+
+#bbpCertPrint {page-break-after:always}
+
+#score-summary h1 {
+color:#000;
+}
+
+
+
+.module {width:375px;border:1px solid #666666;}
+#score-section .module h3 {border-bottom:1px solid #666666;}
+
+#score.module a{display:none;}
+
+#accident-data .top p {color:#000;}
+
+#homeMainContent .badge {
+margin:0 5px 0 3px;
+width:130px;
+}
+
+#score-right {
+margin-right:5px;
+width:385px;
+}
+
+#vin-summary img {
+margin-right:3px;
+}
+
+#vehicle-summary {margin-bottom:1em; padding-bottom:1em; margin-right:10px;}
+#vehicle-summary .details {width:590px;line-height:1.9;}
+#vehicle-summary ul.col2 {width:240px;float:right;padding-left:1px;}
+
+#iconTable {
+width:40%;
+margin-right:3px;
+}
+
+#report #vin-summary td {font-size:12px;}
+
+#basis-banner-score-div { width:635px; margin:auto; }
+#basis-banner-score-div img { padding-left:20px; width:635px; }

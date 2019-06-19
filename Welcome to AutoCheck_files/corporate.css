@@ -1,0 +1,267 @@
+/* navbar begins  */
+#nav .subnav #subnavLaborCond {background: none;}
+#nav .subnav #subnavGlbPress {background: none;}
+#nav .subnav #subnavLaborCond {background: none;}
+#nav .subnav #subnavConferences {background: none;}
+#nav .subnav #subnavThirdParty {background: none;}
+
+.aeHOME #nav .activeHOME, .aePROF #nav .activePROF, .aePRES #nav .activePRES, .aeCARE #nav .activeCARE, .aeEVEN #nav .activeEVEN, .aeVEND #nav .activeVEND {background: url(/common-images/navActiveRight.gif) right top no-repeat;} 
+
+.aeHOME #navGrp #nav .activeHOME a, .aePROF #navGrp #nav .activePROF a, .aePRES #navGrp #nav .activePRES a, .aeCARE #navGrp #nav .activeCARE a, .aeEVEN #navGrp #nav .activeEVEN a, .aeVEND #navGrp #nav .activeVEND a {background: url(/common-images/navActiveLeft.gif) left top no-repeat; color: #0095da;}
+
+.aeHOME #nav .activeHOME a:hover {color: #0095da;}
+.aeHOME #nav .activeHOME a:hover .subnav {display: block;}
+.aeHOME #navGrp #nav .activeHOME .subnav li a {color: #595959; background: none;}
+.aeHOME #navGrp #nav .activeHOME .subnav li a:hover {color: #0095da;}
+.aeHOME #nav li:hover .subnav, #nav li.over .subnav {display: block;}
+.aeHOME #nav .activeHOME .subnav {display: block;}
+.aeHOME #nav:hover .activeHOME .subnav, #nav.overNav .activeHOME .subnav {display: none;}
+.aeHOME #navGrp #nav .activeHOME .subnav:hover, #navGrp #nav .activeHOME .subnav.over {display: block;}
+.aeHOME #navGrp #nav .activeHOME:hover .subnav, #navGrp #nav .activeHOME.over .subnav {display: block;}
+
+.aePROF #nav .activePROF a:hover {color: #0095da;}
+.aePROF #nav .activePROF a:hover .subnav {display: block;}
+.aePROF #navGrp #nav .activePROF .subnav li a {color: #595959; background: none;}
+
+.corpFACT #navGrp #nav .activePROF .subnav #subnavCorpFact a {color: #0095da;}
+.corpFACT #homeMainContent .subNavCorp a {color: #0095da;}
+.commINVO #navGrp #nav .activePROF .subnav #subnavCommunity a {color: #0095da;}
+.commINVO #homeMainContent .subNavComm a {color: #0095da;}
+.compLOCA #navGrp #nav .activePROF .subnav #subnavLocations a {color: #0095da;}
+.compLOCA #homeMainContent .subNavLoca a {color: #0095da;}
+.presCONT #navGrp #nav .activePRES .subnav #subnavPress a {color: #0095da;}
+.presCONT #homeMainContent .subNavPress a {color: #0095da;}
+.careSEAR #homeMainContent .subNavCareerSearch a {color: #0095da;}
+.emplBENE #homeMainContent .subNavEmpBenefits a {color: #0095da;}
+.freeWEB #navGrp #nav .activeEVEN .subnav #subnavFreWeb a {color: #0095da;}
+.freeWEB #homeMainContent .subNavFreeWeb a {color: #0095da;}
+.conferences #navGrp #nav .activeEVEN .subnav #subnavConferences a {color: #0095da;}
+.conferences #homeMainContent .subNavConferences a {color: #0095da;}
+.careSEAR #navGrp #nav .activeCARE .subnav #subnavCarSearch a {color: #0095da;}
+.emplBENE #navGrp #nav .activeCARE .subnav #subnavEmpBene a {color: #0095da;}
+.laborCOND #navGrp #nav .activeCARE .subnav #subnavLaborCond a {color: #0095da;}
+.laborCOND #homeMainContent .subNavLaborCondition a {color: #0095da;}
+.aeSUPPLIERS #navGrp #nav .activeVEND .subnav #subnavSuppliers a {color: #0095da;}
+.thirdPARTY #navGrp #nav .activeVEND .subnav #subnavThirdParty a {color: #0095da;}
+
+.asRULESENGAGE #navGrp #nav .activeVEND .subnav #subnavSuppliers a {color:#0095DA;}
+.asRULESENGAGE #homeMainContent #subNavSuppliersLink {color: #0095da;}
+.asRULESENGAGE #homeMainContent .subNavRulesEngage a {color: #0095da;}
+
+.asBACKGROUNDCHECK #navGrp #nav .activeVEND .subnav #subnavSuppliers a {color:#0095DA;}
+.asBACKGROUNDCHECK #homeMainContent #subNavSuppliersLink {color: #0095da;}
+.asBACKGROUNDCHECK #homeMainContent .subNavDrugBackground a {color: #0095da;}
+
+.asOURBELIEFS #navGrp #nav .activeVEND .subnav #subnavSuppliers a {color:#0095DA;}
+.asOURBELIEFS #homeMainContent #subNavSuppliersLink {color: #0095da;}
+.asOURBELIEFS #homeMainContent .subNavOurBeliefs a {color: #0095da;}
+
+.asQUALITIES #navGrp #nav .activeVEND .subnav #subnavSuppliers a {color:#0095DA;}
+.asQUALITIES #homeMainContent #subNavSuppliersLink {color: #0095da;}
+.asQUALITIES #homeMainContent .subNavQualitiesSupplier a {color: #0095da;}
+
+.asCODECONDUCT #navGrp #nav .activeVEND .subnav #subnavSuppliers a {color:#0095DA;}
+.asCODECONDUCT #homeMainContent #subNavSuppliersLink {color: #0095da;}
+.asCODECONDUCT #homeMainContent .subNavCodeBusiness a {color: #0095da;}
+
+.asSUPPLYDIVERSITY #navGrp #nav .activeVEND .subnav #subnavSuppliers a {color:#0095DA;}
+.asSUPPLYDIVERSITY #homeMainContent #subNavSuppliersLink {color: #0095da;}
+.asSUPPLYDIVERSITY #homeMainContent .subNavSupplierDiversity a {color: #0095da;}
+
+.thirdPARTY #homeMainContent #subNavThirdPartyVendorsLink {color: #0095da;}
+.thirdPARTY #homeMainContent .subNavCertifiedConsumer a {color: #0095da;}
+
+.commSOFTWARE #navGrp #nav .activeVEND .subnav #subnavThirdParty a {color: #0095da;}
+.commSOFTWARE #homeMainContent #subNavThirdPartyVendorsLink {color: #0095da;}
+.commSOFTWARE #homeMainContent .subNavCertifiedCommercial a {color: #0095da;}
+
+.softVENDOR #navGrp #nav .activeVEND .subnav #subnavThirdParty a {color: #0095da;}
+.softVENDOR #homeMainContent #subNavThirdPartyVendorsLink {color: #0095da;}
+.softVENDOR #homeMainContent .subNavSoftwareVendor a {color: #0095da;}
+
+.certREQUIRE #navGrp #nav .activeVEND .subnav #subnavThirdParty a {color: #0095da;}
+.certREQUIRE #homeMainContent #subNavThirdPartyVendorsLink {color: #0095da;}
+.certREQUIRE #homeMainContent .subNavSoftwareCert a {color: #0095da;}
+
+.aePROF #navGrp #nav .activePROF .subnav li a:hover {color: #0095da;}
+.aePROF #nav li:hover .subnav, #nav li.over .subnav {display: block;}
+.aePROF #nav .activePROF .subnav {display: block;}
+.aePROF #nav:hover .activePROF .subnav, #nav.overNav .activePROF .subnav {display: none;}
+.aePROF #navGrp #nav .activePROF .subnav:hover, #navGrp #nav .activePROF .subnav.over {display: block;}
+.aePROF #navGrp #nav .activePROF:hover .subnav, #navGrp #nav .activePROF.over .subnav {display: block;}
+
+.aePRES #nav .activePRES a:hover {color: #0095da;}
+.aePRES #nav .activePRES a:hover .subnav {display: block;}
+.aePRES #navGrp #nav .activePRES .subnav li a {color: #595959; background: none;}
+.aePRES #navGrp #nav .activePRES .subnav li a:hover {color: #0095da;}
+.aePRES #nav li:hover .subnav, #nav li.over .subnav {display: block;}
+.aePRES #nav .activePRES .subnav {display: block;}
+.aePRES #nav:hover .activePRES .subnav, #nav.overNav .activePRES .subnav {display: none;}
+.aePRES #navGrp #nav .activePRES .subnav:hover, #navGrp #nav .activePRES .subnav.over {display: block;}
+.aePRES #navGrp #nav .activePRES:hover .subnav, #navGrp #nav .activePRES.over .subnav {display: block;}
+
+.aeCARE #nav .activeCARE a:hover {color: #0095da;}
+.aeCARE #nav .activeCARE a:hover .subnav {display: block;}
+.aeCARE #navGrp #nav .activeCARE .subnav li a {color: #595959; background: none;}
+.aeCARE #navGrp #nav .activeCARE .subnav li a:hover {color: #0095da;}
+.aeCARE #nav li:hover .subnav, #nav li.over .subnav {display: block;}
+.aeCARE #nav .activeCARE .subnav {display: block;}
+.aeCARE #nav:hover .activeCARE .subnav, #nav.overNav .activeCARE .subnav {display: none;}
+.aeCARE #navGrp #nav .activeCARE .subnav:hover, #navGrp #nav .activeCARE .subnav.over {display: block;}
+.aeCARE #navGrp #nav .activeCARE:hover .subnav, #navGrp #nav .activeCARE.over .subnav {display: block;}
+
+.aeEVEN #nav .activeEVEN a:hover {color: #0095da;}
+.aeEVEN #nav .activeEVEN a:hover .subnav {display: block;}
+.aeEVEN #navGrp #nav .activeEVEN .subnav li a {color: #595959; background: none;}
+.aeEVEN #navGrp #nav .activeEVEN .subnav li a:hover {color: #0095da;}
+.aeEVEN #nav li:hover .subnav, #nav li.over .subnav {display: block;}
+.aeEVEN #nav .activeEVEN .subnav {display: block;}
+.aeEVEN #nav:hover .activeEVEN .subnav, #nav.overNav .activeEVEN .subnav {display: none;}
+.aeEVEN #navGrp #nav .activeEVEN .subnav:hover, #navGrp #nav .activeEVEN .subnav.over {display: block;}
+.aeEVEN #navGrp #nav .activeEVEN:hover .subnav, #navGrp #nav .activeEVEN.over .subnav {display: block;}
+
+.aeVEND #nav .activeVEND a:hover {color: #0095da;}
+.aeVEND #nav .activeVEND a:hover .subnav {display: block;}
+.aeVEND #navGrp #nav .activeVEND .subnav li a {color: #595959; background: none;}
+.aeVEND #navGrp #nav .activeVEND .subnav li a:hover {color: #0095da;}
+.aeVEND #nav li:hover .subnav, #nav li.over .subnav {display: block;}
+.aeVEND #nav .activeVEND .subnav {display: block;}
+.aeVEND #nav:hover .activeVEND .subnav, #nav.overNav .activeVEND .subnav {display: none;}
+.aeVEND #navGrp #nav .activeVEND .subnav:hover, #navGrp #nav .activeVEND .subnav.over {display: block;}
+.aeVEND #navGrp #nav .activeVEND:hover .subnav, #navGrp #nav .activeVEND.over .subnav {display: block;}
+/* navbar ends */
+
+/* content banner begins */
+.aeHOME #banner940x225 {width: 940px; height: 225px; background: url(../images/marquee_L1_AU.jpg) left top no-repeat; position: relative; margin-left: 15px;}
+.aePROF #banner940x225 {width: 940px; height: 225px; background: url(../images/marquee_L2_AU_CorpOverview.jpg) left top no-repeat; position: relative; margin-left: 15px;}
+.aePRES #banner940x225 {width: 940px; height: 225px; background: url(../images/marquee_L2_AU_Press.jpg) left top no-repeat; position: relative; margin-left: 15px;}
+.aeCARE #banner940x225 {width: 940px; height: 225px; background: url(../images/marquee_L2_AU_Careers110408.jpg) left top no-repeat; position: relative; margin-left: 15px;}
+.aeEVEN #banner940x225 {width: 940px; height: 225px; background: url(../images/marquee_L2_AU_Events.jpg) left top no-repeat; position: relative; margin-left: 15px;}
+.aeVEND #banner940x225 {width: 940px; height: 225px; background: url(../images/marquee_L2_AU_Vendors.jpg) left top no-repeat; position: relative; margin-left: 15px;}
+
+.aePRES #banner940x225 h1 {color: #fff;}
+.aePRES #banner940x225 h2 {color: #fff;}
+.aeEVEN #banner940x225 h1 {color: #fff;}
+.aeEVEN #banner940x225 h2 {color: #fff;}
+.aeHOME #banner940x225 h1 {color: #fff;}
+.aeHOME #banner940x225 h2 {color: #fff;}
+
+.corpFACT #banner940x144 {width: 940px; height: 144px; background: url(../images/marquee_L3_AU_compfactsheet.jpg) left top no-repeat; position: relative; margin-left: 15px;} 
+.commINVO #banner940x144 {width: 940px; height: 144px; background: url(../images/marquee_L3_AU_comminvolvement.jpg) left top no-repeat; position: relative; margin-left: 15px;} 
+.compLOCA #banner940x144 {width: 940px; height: 144px; background: url(../images/marquee_L3_AU_locations110608.jpg) left top no-repeat; position: relative; margin-left: 15px;} 
+.expePLC #banner940x144 {width: 940px; height: 144px; background: url(../images/marquee_L3_AU_compfactsheet.jpg) left top no-repeat; position: relative; margin-left: 15px;} 
+
+.careSEAR #banner940x144 {width: 940px; height: 144px; background: url(../images/marquee_L3_AU_Careers_search.jpg) left top no-repeat; position: relative; margin-left: 15px;} 
+.laborCOND #banner940x144 {width: 940px; height: 144px; background: url(../images/marquee_L3_AU_Careers_search.jpg) left top no-repeat; position: relative; margin-left: 15px;} 
+.emplBENE #banner940x144 {width: 940px; height: 144px; background: url(../images/marquee_L3_AU_Careers_benefits.jpg) left top no-repeat; position: relative; margin-left: 15px;} 
+.thirdPARTY #banner940x144, .commSOFTWARE #banner940x144, .softVENDOR #banner940x144, .certREQUIRE #banner940x144 {width: 940px; height: 144px; background: url(../images/marquee_L3_AU_Vendors_3rd.jpg) left top no-repeat; position: relative; margin-left: 15px;}
+.aeSUPPLIERS #banner940x144, .asRULESENGAGE #banner940x144, .asBACKGROUNDCHECK #banner940x144, .asOURBELIEFS #banner940x144, .asQUALITIES #banner940x144, .asCODECONDUCT #banner940x144, .asSUPPLYDIVERSITY #banner940x144 {width: 940px; height: 144px; background: url(../images/marquee_L3_AU_Vendors_suppliers.jpg) left top no-repeat; position: relative; margin-left: 15px;}
+
+.presCONT #banner940x144 {width: 940px; height: 144px; background: url(../images/marquee_L3_AU_presscontacts.jpg) left top no-repeat; position: relative; margin-left: 15px;}
+
+.freeWEB #banner940x144 {width: 940px; height: 144px; background: url(../images/marquee_L3_AU_Events_webinars.jpg) left top no-repeat; position: relative; margin-left: 15px;}
+
+.conferences #banner940x144 {width: 940px; height: 144px; background: url(../images/marquee_L3_AU_Events_conference.jpg) left top no-repeat; position: relative; margin-left: 15px;}
+
+.aeVEND #banner940x144 h2 {padding-right: 400px;}
+
+.emplBENE #banner940x144 h1, .freeWEB #banner940x144 h1, .aeCARE #banner940x225 h1, .compLOCA #banner940x144 h1, .conferences #banner940x144 h1 {color: #fff;}
+.emplBENE #banner940x144 h2, .freeWEB #banner940x144 h2, .aeCARE #banner940x225 h2, .compLOCA #banner940x144 h2, .conferences #banner940x144 h2 {color: #fff;}
+
+/* content banner ends */
+
+/* main content */
+.laborCOND #homeMainContentColRt {margin-bottom: 200px;}
+.presCONT #homeMainContentColRt #presContactTitle {color:#015CAE; font-size:13px; padding-bottom:10px; margin-top: 10px;}
+.freeWEB #homeMainContentColRt .simpleList {float: left; width: 635px; display: inline;}
+.freeWEB #homeMainContentColRt .simpleList li {padding: 0 0 5px 10px; margin: 0; background: url(/common-images/bullet_textinfo.gif) left 7px no-repeat; line-height: 1.25em; float: left; clear: left; width: 635px;}
+.freeWEB #homeMainContentColRt .showContent p {clear: left;}
+.freeWEB #homeMainContent .noBG li {line-height: 1.25em;}
+.presCONT #homeMainContent .noBG {width: 220px; float: left; margin-bottom: 20px;}
+.presCONT #homeMainContentColRt p {clear: left; line-height:1.5em; padding-bottom: 10px;}
+.presCONT #newsCol225 {margin-left: 10px;}
+.presCONT #homeMainContentColRt .boldDisclaimer {line-height: 1em; font-weight: bold;}
+.aeVEND #homeMainContentColRt .boldDisclaimer {line-height: 1em; font-weight: bold;}
+.corpFACT #subNavCorpActive {display: block;}
+.corpFact .subNavCorp a {color: #0095da;}
+.corpFact .subNavCorp a:link {color: #0095da;}
+.corpFact .subNavCorp a:visited {color: #0095da;}
+.corpFact .subNavCorp a:hover {color: #0095da;}
+.corpFact .subNavCorp a:active {color: #0095da;}
+.corpFact #subNavCorpActive a a {color: #595959;}
+
+.aeSUPPLIERS #subNav200 #subNavSuppliers a {color: #0095da;}
+.aeSUPPLIERS #subNav200 #subNavSuppliers #subNavSuppActive {display: block;}
+.asRULESENGAGE #subNav200 #subNavSuppliers #subNavSuppActive {display: block;}
+.asBACKGROUNDCHECK #subNav200 #subNavSuppliers #subNavSuppActive {display: block;}
+.asOURBELIEFS #subNav200 #subNavSuppliers #subNavSuppActive {display: block;}
+.asQUALITIES #subNav200 #subNavSuppliers #subNavSuppActive {display: block;}
+.asCODECONDUCT #subNav200 #subNavSuppliers #subNavSuppActive {display: block;}
+.asSUPPLYDIVERSITY #subNav200 #subNavSuppliers #subNavSuppActive {display: block;}
+
+.thirdPARTY #subNav200 #subNavThirdPartyVendors #subNavThirdActive {display: block;}
+.commSOFTWARE #subNav200 #subNavThirdPartyVendors #subNavThirdActive {display: block;}
+.softVENDOR #subNav200 #subNavThirdPartyVendors #subNavThirdActive {display: block;}
+.certREQUIRE #subNav200 #subNavThirdPartyVendors #subNavThirdActive {display: block;}
+
+
+.aeSUPPLIERS #subNav200 #subNavSuppliers #subNavSuppActive li a {color: #595959;}
+.aeSUPPLIERS #subNav200 #subNavSuppliers #subNavSuppActive li a:hover {color: #0095da;}
+.aeTHIRDPARTY #subNav200 #subNavThirdPartyVendors a {color: #0095da;}
+.aeTHIRDPARTY #subNav200 #subNavThirdPartyVendors #subNavThirdActive {display: block;}
+.aeTHIRDPARTY #subNav200 #subNavThirdPartyVendors #subNavThirdActive li a {color: #595959;}
+.aeTHIRDPARTY #subNav200 #subNavThirdPartyVendors #subNavThirdActive li a:hover {color: #0095da;}
+
+.newsIncludeStyle ul {margin: 0;}
+.newsIncludeStyle li {background: url(/common-images/marker_red_8x8.gif) left 3px no-repeat; margin: 0 0 5px 0; padding-left: 15px; line-height: 1.25em; font-size: 11px; list-style-position: outside;}
+.newsIncludeStyle p {background: url(/common-images/marker_red_8x8.gif) left 5px no-repeat; margin: 0 0 5px 0; padding-left: 15px; line-height: 1.25em;}
+.newsIncludeStyle a {color: #595959; text-decoration: none;}
+.newsIncludeStyle a:link {color: #595959;}
+.newsIncludeStyle a:visited {color: #595959;}
+.newsIncludeStyle a:hover {color: #0095da;}
+.newsIncludeStyle a:active {color: #0095da;}
+
+#thirdPartySearch {width: 680px; margin: 10px 0 20px;}
+#thirdPartySearch select {width: 250px;}
+#thirdPartySearch td {width: 180px;}
+#thirdPartySearch label {font-weight: bold; line-height: 1.5em; padding-right: 100px; margin-bottom: 10px;}
+#thirdPartySearch select {margin: 10px 0;}
+
+.locationBlocksFirst {border-top: none;}
+#homeMainContentColRt .locationBlocksFirst h4 {margin-top: 20px;}
+.locationBlocks {clear: left; border-top: 1px solid #d1d1d1;}
+#homeMainContentColRt .locationBlocks h4 {margin-top: 20px;}
+#homeMainContentColRt li {list-style-type: none;}
+
+/* drug and background check table in corporate vendor section */
+#dnb {font-size: 0.9em; background: url(/common-images/info2_table_top.jpg) left top no-repeat; display: block; width: 680px; height: 698px;}
+#dnb tbody {display: block; margin: 10px;}
+#dnb #dnbTitle {margin-bottom: 20px; border-bottom: none; padding: 0 0 15px;}
+#dnb #dnbTitle td {font-size: 12px; font-weight: bold; padding: 13px 15px 15px 10px;}
+#dnb #dnbTitle2 td{font-size: 12px; vertical-align: text-top; padding: 15px 10px 10px 10px;}
+#dnb tr {border-bottom: 1px solid #d1d1d1;}
+#dnb td {font-size: 0.9em; vertical-align: text-top; line-height: 1.25em; padding: 5px 10px 10px 10px;}
+#dnb #dnbBottomRow {border: none;}
+#dnbBottom {background: url(/common-images/info2_table_btm.jpg) left bottom no-repeat; width: 680px; height: 17px; margin-bottom: 20px; }
+/* */
+
+/* blockquote in vendor section */
+.blockquote {
+border : 2px solid #000;
+margin: 0px auto;
+padding: 10px;
+
+}
+
+/* end blockquote */
+
+/* No bullets */
+#homeMainContentColRt ul li {background: none;
+line-height: 12pt;
+margin-left: 0; padding-left: 20px;
+}
+#homeMainContentList ul li {background: none;
+line-height: 11pt;
+margin-left: 0; padding-left: 50px;
+}
+/* end No Bullets */

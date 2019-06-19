@@ -1,0 +1,1141 @@
+/*
+		$Id: autocheck.css,v 1.48.2.33 2011/02/18 16:46:07 m00134a Exp $
+	
+    px * .0626 = Xem
+    em / .0626 = Xpx
+*/
+
+.altText a {color: #0095da;}
+.altText a:link {color: #0095da;}
+.altText a:visited {color: #0095da;}
+.altText a:hover {color: #0095da; text-decoration: underline;}
+.altText a:active {color: #0095da;}
+
+#autocheck {
+	font: 10px Verdana, Tahoma, sans-serif;
+	line-height:normal;
+}
+
+.copy p font {
+	font-size:16px;
+	}
+	
+.copy img {
+	padding:4px;
+	}	
+
+#autocheck .black_text_bold_10 {
+	color: #000000;
+	font-weight: bold;
+}
+
+.error_text {
+	color: #FF0000;
+	font: 10px Verdana, Tahoma, sans-serif;
+}
+
+form {
+	padding: 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+.glossary_text {
+	color: #666666;
+	font: 11px Verdana, Tahoma, sans-serif;
+}
+
+.glossary_header {
+	color: #666666;
+	font: bold 15px Verdana, Tahoma, sans-serif;
+}
+
+h2 {
+	margin-bottom: 0;
+}
+
+.header2 {
+	color: #006699;
+	font: bold 18px Arial, sans-serif;
+}
+
+.header3 {
+	color: #006699;
+	font: bold 18px Verdana, Tahoma, sans-serif;
+}
+
+
+.report_data1 {
+	FONT: 10px Verdana, Tahoma, sans-serif;
+	COLOR: #666666;
+	background: #E3EBF3;
+}
+
+.report_data2 {
+	COLOR: #666666;
+	FONT: 10px Verdana, Tahoma, sans-serif;
+}
+
+
+.report_error1 {
+	FONT: 10px Verdana, Tahoma, sans-serif;
+	COLOR: #FF0000;
+	background: #E3EBF3;
+}
+
+.report_error2 {
+	COLOR: #FF0000;
+	FONT: 10px Verdana, Tahoma, sans-serif;
+}
+
+.report_label1 {
+	COLOR: #000000;
+	FONT: bold 10px Verdana, Tahoma, sans-serif;
+	background: #E3EBF3;
+}
+
+.report_label2 {
+	FONT: bold 10px Verdana, Tahoma, sans-serif;
+	COLOR: #000000;
+}
+
+.spacer5 {
+	height: 5px;
+}
+
+
+.spacer8 {
+	height: 8px;
+}
+
+.spacer15 {
+	height: 15px;
+}
+
+.spacer30 {
+	height: 30px;
+}
+
+#autocheck .standard_text {
+	color: #666666;
+	font: 10px Verdana, Tahoma, sans-serif;
+}
+
+.strong11 {
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size: 11px;
+	FONT-WEIGHT: bold
+}
+
+.subheader {
+	COLOR: #006699;
+	FONT: bold 14px Verdana, Tahoma, sans-serif;
+}
+
+#autocheck .text3 {
+	font: 12px Verdana, Tahoma, sans-serif;
+}
+
+#autocheck ul {
+	margin-bottom: 5px;
+	margin-top: 0px;
+	padding-left: 15px;
+	list-style-image: url('/members/img/bullet.gif');
+}
+
+#autocheck li {
+	margin-bottom: 5px;
+}
+
+/*
+	Dealer Lead Form
+*/
+#lead select,#lead input {
+	width: 153px;
+}
+
+#lead textarea {
+	border: 1px solid #d6d6d6;
+	font: 11px Verdana, Tahoma, sans-serif;
+	color: #666666;
+	margin-bottom: 0px;
+	width: 153px;
+}
+
+#lead .red_border {
+	border: 1px solid #FF0000;
+}
+
+#lead td {
+	text-align: left;
+}
+/*
+ * 240 Info boxes
+ */
+#autocheck .infoBox240 {
+	width: 240px;
+	text-align: left;
+}
+
+#autocheck .infoBox240 .headlet {
+	font-size: 9pt;
+	font-family: Verdana;
+	color: #FFFFFF;
+	text-align: left;
+	text-indent: 10px;
+	padding-top: 5px;
+	position: absolute;
+	font-weight: 700;
+}
+
+#autocheck .infoBox240 .body {
+	padding: 3px 10px 3px 10px;
+	background: #fff;
+}
+
+#autocheck .infoBox240 td {
+	padding: 0px 0px 3px 10px;
+}
+
+/*
+// 338 Info boxes
+*/
+.infoBox338 {
+	width: 338px;
+}
+
+.infoBox338 .headlet {
+	font-size: 9pt;
+	font-family: Verdana;
+	color: #FFFFFF;
+	text-align: left;
+	text-indent: 20px;
+	padding-top: 5px;
+	position: absolute;
+	font-weight: 700;
+}
+
+.infoBox338 .imageHeadlet {
+	font-size: 9pt;
+	font-family: Verdana;
+	color: #FFFFFF;
+	text-align: left;
+	text-indent: 70px;
+	padding-top: 5px;
+	position: absolute;
+	font-weight: 700;
+}
+
+.infoBox338 .body {
+	padding: 3px 10px 3px 10px;
+	background: #fff;
+}
+
+/*
+// 366 Info boxes
+*/
+.infoBox366 {
+	width: 366px;
+}
+
+.infoBox366 .headlet {
+	font-size: 9pt;
+	font-family: Verdana;
+	color: #FFFFFF;
+	text-align: left;
+	text-indent: 30px;
+	padding-top: 5px;
+	position: absolute;
+	font-weight: 700;
+}
+
+.infoBox366 .body {
+	padding: 3px 10px 3px 10px;
+	text-align: left;
+	background: #EFEFEF;
+}
+
+/*
+ * 517 Info boxes
+ */
+ .infoBox517 {
+	
+}
+
+ .infoBox517 table {
+	width: 517px;
+}
+
+ .infoBox517 .headlet {
+	font-size: 9pt;
+	font-family: Verdana;
+	color: #FFFFFF;
+	text-align: left;
+	text-indent: 10px;
+	padding-top: 5px;
+	position: absolute;
+	font-weight: 700;
+}
+
+ .infoBox517 .body {
+	padding: 3px 30px 3px 30px;
+	text-align: left;
+	border-right: 1px solid #006699;
+	border-left: 1px solid #006699;
+}
+
+ .infoBox517 .border {
+	border-right: 1px solid #006699;
+	border-left: 1px solid #006699;
+}
+
+/*
+ * 539 Info boxes
+ */
+.infoBox539 {
+	width: 539px;
+}
+
+.infoBox539 .headlet {
+	font-size: 9pt;
+	font-family: Verdana;
+	color: #FFFFFF;
+	text-align: left;
+	text-indent: 10px;
+	padding-top: 5px;
+	position: absolute;
+	font-weight: 700;
+}
+
+.infoBox539 .imageHeadlet {
+	font-size: 9pt;
+	font-family: Verdana;
+	color: #FFFFFF;
+	text-align: left;
+	text-indent: 70px;
+	padding-top: 5px;
+	position: absolute;
+	font-weight: 700;
+}
+
+.infoBox539 .body {
+	padding: 3px 10px 3px 10px;
+	text-align: left;
+	background: #EFEFEF;
+}
+
+.infoBox539 .body2 {
+	padding: 3px 10px 3px 10px;
+	text-align: left;
+	background: #fff;
+}
+/*
+ * 420 Info boxes
+ */
+.infoBox420 {
+	width: 420px;
+	text-align: left;
+}
+
+.infoBox420 .headlet {
+	font-size: 9pt;
+	font-family: Verdana;
+	color: #FFFFFF;
+	text-align: left;
+	text-indent: 10px;
+	padding-top: 5px;
+	position: absolute;
+	font-weight: 700;
+}
+
+.infoBox420 .body {
+	padding: 3px 10px 3px 10px;
+	background: #EFEFEF;
+}
+
+.infoBox420 td {
+	color: #666666;
+	font: 10px Verdana, Tahoma, sans-serif;
+}
+
+/*
+ * 560 Info boxes
+ */
+#autocheck .infoBox560 {
+	width: 560px;
+	text-align: left;
+}
+
+
+
+#autocheck .infoBox560 .headlet {
+	font-size: 9pt;
+	font-family: Verdana;
+	color: #FFFFFF;
+	text-align: left;
+	text-indent: 10px;
+	padding-top: 5px;
+	position: absolute;
+	font-weight: 700;
+}
+
+#autocheck .infoBox560 .body {
+	padding: 3px 10px 3px 10px;
+	background: #fff;
+}
+
+#autocheck .infoBox560 .body2 {
+	padding: 3px 10px 3px 10px;
+	background: #ededed;
+}
+
+#autocheck .infoBox560 .background {
+	background: #fff;
+}
+
+#autocheck .infoBox560 .background  a {text-decoration: underline;}
+/*the following styles added to display the color of A href properly in IE*/
+#autocheck .infoBox560 .background  a:link {text-decoration: underline;}
+#autocheck .infoBox560 .background  a:hover {text-decoration: underline;}
+#autocheck .infoBox560 .background  a:active {text-decoration: underline;}
+#autocheck .infoBox560 .background a:visited {text-decoration: underline;}
+
+
+#autocheck .infoBox560 .background2 {
+	background: #ededed;
+}
+
+#autocheck .infoBox560 .text_11 {
+	color: #666666;
+	font: 10px Verdana, Tahoma, sans-serif;
+}
+
+/*
+ * 740 Info boxes
+ */
+#autocheck .infoBox740 {
+	width: 740px;
+	text-align: left;
+}
+
+#autocheck .infoBox740 .headlet {
+	font-size: 10pt;
+	font-family: Verdana;
+	color: #FFFFFF;
+	text-align: left;
+	text-indent: 10px;
+	padding-top: 5px;
+	position: absolute;
+	font-weight: 700;
+}
+
+#autocheck .infoBox740 .body {
+	padding: 3px 10px 3px 10px;
+}
+
+#autocheck .infoBox740 .background {
+	background-color: #fff;
+}
+
+#autocheck .infoBox740 td {
+	color: #666666;
+	font: 10px Verdana, Tahoma, sans-serif;
+}
+
+.infoBox740 .background2 {
+	background: #ededed;
+}
+
+/*
+ *   HEADER SECTION 
+ */
+#header {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#header .table {
+	width: 740px;
+}
+
+
+#header .links {
+	height: 25px;
+	font-weight: bold;
+	white-space: nowrap;
+	padding-bottom: 3px;
+}
+
+#header .links ul {
+	list-style: none; /*defines if bullets are present*/
+	margin: 0;
+	position: relative; /*controls position in cell */
+	padding-left: 255px; /*controls how far left item is set*/
+}
+
+#header .links li {
+	float: left; /* controls link order */
+	display: block; /* controls the vertical or horizontal plain */
+	position: relative;
+	/* controls the <li> postion using to previous <li> */
+	color: #FFFFFF;
+	/* color:of link text which is not a link ( for | items )*/
+	width: auto; /* defines the width of each <li> */
+	text-align: center; /* defines alignment when with is not auto; */
+	cursor: default; /* defaults to hand pointer when moused over */
+}
+
+#header .reynoldslinks {
+	height: 25px;
+	font-weight: bold;
+	white-space: nowrap;
+	padding-bottom: 3px;
+}
+
+#header .reynoldslinks ul {
+	list-style: none; /*defines if bullets are present*/
+	margin: 0;
+	position: relative; /*controls position in cell */
+	padding-right: 30px;
+	padding-top: 40px;
+}
+
+#header .reynoldslinks li {
+	float: right; /* controls link order */
+	display: block; /* controls the vertical or horizontal plain */
+	position: relative;
+	/* controls the <li> postion using to previous <li> */
+	color: #FFFFFF;
+	/* color:of link text which is not a link ( for | items )*/
+	width: auto; /* defines the width of each <li> */
+	text-align: center; /* defines alignment when with is not auto; */
+	cursor: default; /* defaults to hand pointer when moused over */
+}
+
+#header .reynoldslinks a {
+	font-family: Verdana; /* controls link font */
+	font-size: 9px; /* controls link font */
+	font-weight: bold; /* controls link font */
+	color: #FFFFFF; /* controls link font */
+	text-decoration: none; /* controls underline attribute */
+	padding: 8px 4px 8px 4px;
+}
+
+#header .links a {
+	font-family: Verdana; /* controls link font */
+	font-size: 9px; /* controls link font */
+	font-weight: bold; /* controls link font */
+	color: #FFFFFF; /* controls link font */
+	text-decoration: none; /* controls underline attribute */
+	padding: 8px 4px 8px 4px;
+}
+
+/*
+ *   FOOTER SECTION 
+ */
+#footer {
+	
+}
+
+#footer	table {
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 3px;
+}
+
+#footer td {
+	text-align: center;
+	white-space: nowrap;
+}
+
+#footer a:link {
+	color: #666666;
+	font: 11px Verdana, Tahoma, sans-serif;
+	text-decoration: underline
+}
+
+#footer a:active {
+	color: #333333;
+	font: 11px Verdana, Tahoma, sans-serif;
+	text-decoration: underline
+}
+
+#footer a:visited {
+	color: #888888;
+	font: 11px Verdana, Tahoma, sans-serif;
+	text-decoration: underline
+}
+
+#footer a:hover {
+	color: #333333;
+	font: 11px Verdana, Tahoma, sans-serif;
+	text-decoration: underline
+}
+
+
+/* 
+  Dashboard Summary/Branded Report
+*/
+#summary table tr td  {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+	
+
+}
+
+#summary table {
+	width: auto;
+	background-color: transparent;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	margin-right: auto;
+	margin-left: auto;
+	
+	
+border-collapse: separate;
+	
+}
+
+#summary .headlet {
+	font-size: 10pt;
+	font-family: Verdana;
+	color: #FFFFFF;
+	text-align: left;
+	text-indent: 12px;
+	padding-top: 10px;
+	position: absolute;
+	font-weight: 700;
+}
+
+#summary td {
+	text-align: left;
+}
+
+#summary .border {
+	border-right: 1px solid #006699;
+	border-left: 1px solid #006699;
+}
+
+#summary .content {
+	width: 98%;
+}
+
+#summary .smallBranded table {
+	border-spacing: 2px;
+}
+
+#summary .smallBranded {
+	width: 298px;
+	background-color: transparent;
+}
+
+#summary .largeBranded table {
+	border-spacing: 2px;
+}
+#summary .largeBranded {
+	width: 597px;
+	background-color: transparent;
+}
+
+#summary .largeBranded th {
+	font: bold 11px Verdana, Tahoma, sans-serif;
+	color: #FFFFFF;
+	background: #006699;
+	text-align: left;
+	border:1px solid white;
+}
+
+#summary .largeBranded .report_error1 {
+	FONT: bold 10px Verdana, Tahoma, sans-serif;
+	COLOR: #FF0000;
+	background: #E3EBF3;
+}
+
+#summary .largeBranded .report_error2 {
+	COLOR: #FF0000;
+	FONT: bold 10px Verdana, Tahoma, sans-serif;
+}
+
+
+#summary .largeBranded .disclaimer_text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #000000;
+}
+
+
+
+/*  Full Reports */
+.full {
+	
+}
+
+.full .displaySection {
+	position: absolute;
+	padding-left: 574px;
+	padding-top: 13px;
+	cursor: pointer; /* defaults to hand pointer when moused over */
+}
+
+.full .displaySectionScore {
+	padding-top: 10px;
+	text-align: center;
+	cursor: pointer; /* defaults to hand pointer when moused over */
+}
+
+.headlet {
+	font-size: 11pt;
+	font-family: Verdana;
+	color: #FFFFFF;
+	text-align: left;
+	text-indent: 12px;
+	padding-top: 10px;
+	position: absolute;
+	font-weight: 700;
+}
+
+
+.full .links {
+	width: auto;
+	background-color: transparent;
+}
+
+.full table {
+	background-color: transparent;
+	width: 597px;
+	margin-right: auto;
+	margin-left: auto;
+	border-collapse:separate;
+}
+
+#vin-dashboard .full table {
+	background-color: transparent;
+	width: 597px;
+	margin-right: auto;
+	margin-left: auto;
+	border-collapse:separate;
+}
+
+.full td {
+	padding: 0px 0px 0px 0px;
+	text-align: left;
+}
+
+.full th {
+	font: bold 11px Verdana, Tahoma, sans-serif;
+	color: #FFFFFF;
+	background: #006699;
+	text-align: left;
+}
+
+.full .border {
+	border-right: 1px solid #006699;
+	border-left: 1px solid #006699;
+}
+
+.full .background {
+	background: #FFFFFF;
+}
+
+.full .copy {
+	width: 94%;
+	background-color: transparent;
+}
+
+
+
+.full .copy td {
+	white-space: normal;
+	vertical-align:middle;
+}
+
+.full .content {
+	width: 95%;
+	background-color: transparent;
+	
+}
+
+.full .problem {
+	color: #FF0000;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.full .noProblem {
+	color: #30AC30;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.full .content td {
+	padding: 3px;
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size: 10px;
+	color: #666666;
+	text-align: left;
+	vertical-align:middle;
+}
+
+.fullPrint {
+	padding: 1px;
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	text-align: left;
+}
+
+.full .content .label {
+	white-space: nowrap;
+	color: #000000;
+	font: bold 10px Verdana, Tahoma, sans-serif;
+}
+
+.full .content .alt td{
+	background: #E3EBF3;
+}
+
+
+.full .highlight_background td{
+	font-weight: bold;
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size: 10px;
+	COLOR: #666666;
+	background: #FFFF00;
+}
+
+/*  Anchor links for the Full Report page.*/
+#autocheck .full A:link,#autocheck .full A:active,#autocheck .full A:visited,#autocheck .full A:hover {
+	color: #666666;
+	font: bold 11px Tahoma, Verdana, sans-serif;
+	text-decoration: underline
+}
+
+/*
+ *	Buttons
+ *	rgb(255,140,64 Autocheck Light Orange 
+ *	rgb(255,102,0) Autocheck orange
+ *  rgb(210,84,0) Autocheck Dark orange
+ */
+.autocheckButton {
+	padding: 7px 7px 7px 7px;
+}
+
+.autocheckButton input {
+	cursor: pointer;
+}
+
+.autocheckButton table {
+	width: auto;
+}
+
+.autocheckButton .button[class] { /*IE ignores [class]*/
+	font: 11px Arial, Tahoma, sans-serif;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	background-color: rgb(1, 96, 181);
+	border: rgb(1, 134, 245) 2px solid;
+	border-right: rgb(1, 56, 0) 2px solid;
+	border-bottom: rgb(1, 56, 0) 2px solid;
+}
+
+.autocheckButton .buttonHover[class] { /*IE ignores [class]*/
+	font: 11px Arial, Tahoma, sans-serif;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	background-color: rgb(1, 96, 181);
+	border: rgb(1, 56, 0) 2px solid;
+	border-right: rgb(1, 134, 245) 2px solid;
+	border-bottom: rgb(1, 134, 245) 2px solid;
+}
+
+.autocheckButton .button {
+	font: 11px Arial, Tahoma, sans-serif;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	background-color: rgb(1, 96, 181);
+	border: rgb(1, 134, 245) 2px solid;
+	border-right: rgb(1, 56, 0) 2px solid;
+	border-bottom: rgb(1, 56, 0) 2px solid;
+}
+
+.autocheckButton .buttonHover {
+	font: 11px Arial, Tahoma, sans-serif;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	background-color: rgb(1, 96, 181);
+	border: rgb(1, 56, 0) 2px solid;
+	border-right: rgb(1, 134, 245) 2px solid;
+	border-bottom: rgb(1, 134, 245) 2px solid;
+}
+
+/*
+ *	Buttons
+ *	rgb(106,186,226) Autocheck Light blue 
+ *	rgb(51,153,204)Autocheck blue
+ *  rgb(39,145,198) Autocheck Dark blue
+ */
+.autocheckScoreButton {
+	
+}
+
+.autocheckScoreButton input {
+	cursor: pointer;
+}
+
+.autocheckScoreButton table {
+	width: auto;
+}
+
+.autocheckScoreButton .button[class] { /*IE ignores [class]*/
+	width: auto;
+	font: 11px Arial, Tahoma, sans-serif;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	background-color: rgb(51, 153, 204);
+	border: rgb(106, 186, 226) 2px solid;
+	border-right: rgb(39, 145, 198) 2px solid;
+	border-bottom: rgb(39, 145, 198) 2px solid;
+}
+
+.autocheckScoreButton .buttonHover[class] {
+	font: 11px Arial, Tahoma, sans-serif;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	background-color: rgb(51, 153, 204);
+	border: rgb(39, 145, 198) 2px solid;
+	border-right: rgb(106, 186, 226) 2px solid;
+	border-bottom: rgb(106, 186, 226) 2px solid;
+	width: auto;
+}
+
+.autocheckScoreButton .button {
+	font: 11px Arial, Tahoma, sans-serif;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	background-color: rgb(51, 153, 204);
+	border: rgb(106, 186, 226) 2px solid;
+	border-right: rgb(39, 145, 198) 2px solid;
+	border-bottom: rgb(39, 145, 198) 2px solid;
+	padding: 0 .25em;
+	width: 0;
+	overflow: visible;
+}
+
+.autocheckScoreButton .buttonHover {
+	font: 11px Arial, Tahoma, sans-serif;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	background-color: rgb(51, 153, 204);
+	border: rgb(39, 145, 198) 2px solid;
+	border-right: rgb(106, 186, 226) 2px solid;
+	border-bottom: rgb(106, 186, 226) 2px solid;
+	padding: 0 .25em;
+	width: 0;
+	overflow: visible;
+}
+
+
+.scoreText {
+	text-indent: 215px;
+	padding-top: 52px;
+	font-size: 36pt;
+	font-family: Arial;
+	color: #FFFFFF;
+	font-weight: bold;
+	position: absolute;
+}
+
+.scoreRangeText {
+	text-indent: 86px;
+	padding-top: 93px;
+	font-size: 11pt;
+	letter-spacing: 1px;
+	font-family: Arial;
+	color: #E5DA95;
+	font-weight: bold;
+	position: absolute;
+}
+
+/*Agreement Page Terms-scrollable div*/
+.terms {
+	border: 1px solid #d6d6d6;
+	padding: 4px;
+	width: 620px;
+	height: 250px;
+	overflow: auto;
+}
+
+.acCert {
+	
+}
+
+.acCert .header {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	color: #004B8C;
+}
+
+.acCert .subheader {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #004B8C;
+}
+
+.acCert .subheader1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #004B8C;
+}
+
+.acCert .vehicleDetails {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 19px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.acCert .disclaimer_text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #000000;
+}
+
+.acCert .disclaimer_text1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 7px;
+	color: #000000;
+}
+
+.acCert .disclaimer_text_spanish {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 7px;
+	color: #000000;
+}
+
+/* simulates the bill usage count button */
+usage_link {
+	font: 11px Arial, Tahoma, sans-serif;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 64, 115);
+	border: rgb(132, 181, 206) 2px solid;
+	border-right: rgb(0, 65, 97) 2px solid;
+	border-bottom: rgb(0, 65, 97) 2px solid;
+}
+
+a.usage_link:link {
+	font: 11px Arial, Tahoma, sans-serif;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 64, 115);
+	border: rgb(132, 181, 206) 2px solid;
+	border-right: rgb(0, 65, 97) 2px solid;
+	border-bottom: rgb(0, 65, 97) 2px solid;
+	text-decoration: none;
+}  /* unvisited */
+a.usage_link:visited {
+	font: 11px Arial, Tahoma, sans-serif;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 64, 115);
+	border: rgb(132, 181, 206) 2px solid;
+	border-right: rgb(0, 65, 97) 2px solid;
+	border-bottom: rgb(0, 65, 97) 2px solid;
+	text-decoration: none;
+}  /* visited */
+a.usage_link:hover {
+	font: 11px Arial, Tahoma, sans-serif;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 64, 115);
+	border: rgb(0, 65, 97) 2px solid;
+	border-right: rgb(132, 181, 206) 2px solid;
+	border-bottom: rgb(132, 181, 206) 2px solid;
+	width: auto;
+	text-decoration: none
+}  /* mouse over */
+.leftrightpadding {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+#reynoldsError {
+	padding-left: 16px;
+	padding-top: 10px;
+	text-align: justify;
+}
+
+#reynoldsError  ul {
+	list-style-type: disc;
+	font-weight: bold;
+	color: #fff;
+}
+
+#reynoldsLogin {
+	height: 350px;
+	margin: 0 35px 0 730px;
+}
+
+#reynoldsLogin form {
+	padding-top: 87px;
+	padding-right: 5px;
+}
+
+#reynoldsMovie {
+	height: 150px;
+	clear: both;
+	margin: 0 26px 0 721px;
+}
+
+/* dashboard styles */
+/* needs to be at td level to work in both IE and FF*/
+.dash-flagged td {background-color: #fdfbe1;}
+
+#dash-report table tr td {
+    border-right: none;
+}
+		
+#dash-report table tr th {
+    border-right: none;
+text-align: left;
+}
+/* no score*/
+#dash-report .full .border {
+	border-right: 1px solid #006699;
+	border-left: 1px solid #006699;
+}
+
+#dash-report .full .content {
+	width: 95%;
+	background-color: transparent;
+}
+
+#dash-report .full .copy {
+	width: 94%;
+	background-color: transparent;
+}
+	
+.disclaimer_text    {
+  COLOR: #666666; 
+  FONT: 9px Verdana, Tahoma, sans-serif;
+}	
+
+.bbiPolicy{
+   font-family: Arial, Helvetica, sans-serif; 
+   font-size: 7pt; 
+   font-weight: normal; color: #000000;
+}
+
+
+
+.horSpacer
+{
+	width:20px;
+}

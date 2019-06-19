@@ -1,0 +1,326 @@
+/* AutoCheck Vehicle History Report Stylesheet. */
+/* Must include base.css for text leading and table padding to work. */
+/* Version 1.0 1/13/09 */
+
+/* Most of the styles are presented in the order in which they appear on the */
+/* from top to bottom */
+
+/* forces the override of the gray link color from master.css */
+#homeMainContent a {color: blue ;}
+
+/* Overwrite the styles from the corporate stylesheets */
+#homeMainContent h3 {color: #066a9b; padding: 0 8px; border: none;}
+#homeMainContent .section .top h3 {color: #FFFFFF;}
+
+/*the following styles added to display the color of A href properly in IE*/
+#homeMainContent .summary-list a:link {color:#000;font-weight: bold;text-decoration: underline;}
+#homeMainContent .summary-list a:hover {color:#000;font-weight: bold;text-decoration: underline;}
+#homeMainContent .summary-list a:active {color:#000;font-weight: bold;text-decoration: underline;}
+#homeMainContent .summary-list a:visited {color:#000;font-weight: bold;text-decoration: underline;}
+
+/*the following styles added to display the color of A href properly in IE*/
+#homeMainContent .flagged td a:link {color:red;text-decoration: underline;}
+#homeMainContent .flagged td a:hover {color:red;text-decoration: underline;}
+#homeMainContent .flagged td a:active {color:red;text-decoration: underline;}
+#homeMainContent .flagged td a:visited {color:red;text-decoration: underline;}
+
+#homeMainContent .vehicle-info td a:link{font-weight:bold;text-decoration: underline;}
+#homeMainContent .vehicle-info td a:hover{font-weight:bold;text-decoration: underline;}
+#homeMainContent .vehicle-info td a:active{font-weight:bold;text-decoration: underline;}
+#homeMainContent .vehicle-info td a:visited{font-weight:bold;text-decoration: underline;}
+
+p {margin-bottom: .3em;}
+.section tbody td {padding: 5px;}
+
+
+.report-options div {height: 145px;}
+
+/* Unique to the commercial or dealer reports */
+#dealer-functions {font-size: 83%; margin: 6px auto 10px auto; border: 1px solid #c4c4c4; padding: 5px; background: #ededed url(../img/functions_bg.jpg) repeat-x top;} 
+#dealer-functions div {float: left; padding: 8px 6px 0; height:95%;}
+#dealer-functions div label {display: inline;}
+#dealer-functions h3 {font-size: 123%; color: #066a9b; font-weight: bold; padding: 0}	
+#dealer-functions div p {margin-bottom: 1.1em;}	
+
+
+#vin-summary-left tr td {padding: 4px 0; font-size: 108%; color: #000}
+
+/* Sections define all the major content blocks in the report */
+.section {} /* include to show that all styling is targetted, .sections alone do not have any styles. */
+
+.section .top h3 {
+color:#FFFFFF;
+font-size:143%;
+margin:0.5em 0;
+padding:0 8px;
+}
+
+.section table {width: 100%;}
+
+.section p a:link, .section p a:visited {
+color:blue;
+font-weight:normal;
+text-decoration:none;
+}
+
+.section p a:hover {
+color:blue;
+font-weight:normal;
+text-decoration:underline;
+}
+
+.section th {
+border-bottom:2px solid #555555;
+font-weight:bold;
+padding:6px;
+color:#000000;
+}
+
+.section td img {margin: 0 25px;}
+
+.section .top {
+background-color:#02293C;
+border:2px solid #D7D7D7;
+margin-bottom:3px;
+padding:2px;
+}
+
+.value {font-weight: bold; color: #000000}	/* For the labels in the table */
+.check-header {width:15%;} /* Special class just to make the table columns with checkmarks line up nicer */
+
+.section p {
+margin:1.2em 0;
+}
+
+.lead-in {font-size: 123%;font-weight: bold;} /* For the first part of each lead paragraph */
+.checks-out {color:#1f991f;}
+.info-reported {color:#27438b;}
+.warning {color: #bd0000;}
+
+
+/* Denotes when there is information of interest to the user, flag is more neutral than warning */
+td.flagged {background-color: #fdfbe1;}
+td.flagged {color:red;font-weight: bold}
+td.flagged a {text-decoration: none;color:red;}
+
+
+
+.hide-details { 	color: #fff;  	text-decoration: none;  	margin: 3px;  	display: block;  	float: right;}
+
+/* Inline images are inactive for the browser, but in the  */
+/* printer-friendly style sheet they are active and vice versa. */
+
+
+
+
+
+/*  a class called flagged works in IE table  matt added*/
+
+.flagged td {background-color: #fdfbe1; color:red;font-weight: bold}
+.flagged td a {color:red;text-decoration: underline;}
+
+
+/*needed here because link is set to blue on this sheet for everything else under homeMainContent   */
+#dash-report .flagged td a:link{color:red; text-decoration:none;}	 
+#dash-report .flagged td a:hover {color:red; text-decoration:none; cursor:text;}
+#dash-report .flagged td a:active {color:red;text-decoration:none;}
+#dash-report .flagged  td a:visited {color:red;text-decoration:none;}
+
+#dash-report .vehicle-info td a:link{color:#000000; text-decoration:none;font-weight:normal;}
+#dash-report .vehicle-info td a:hover {color:#000000;text-decoration::none;font-weight:normal;cursor:text;}
+#dash-report .vehicle-info td a:active{color:#000000; text-decoration:none;font-weight:normal;}
+#dash-report .vehicle-info td a:visited{color:#000000; text-decoration:none;font-weight:normal;}
+
+
+
+
+/*removes all padding for the dynamic score tile table    */
+#score-tile {margin-right:8px; float:left;}
+#score-tile table tr td {padding: 0; vertical-align:top; line-height: 0;}
+#score-tile table tr {padding: 0;}
+#score-tile table {padding: 0; border-collapse:separate; width: 210px;}
+
+.freelink p a {color: blue ;text-decoration:none;}
+
+#bbpCertPrint {display:none;}
+
+
+.bottom td,  #full-history-list td , #section-vehicle-glossary td{border-bottom:1px solid #D7D7D7;}
+
+/* New score section   */
+
+#report {padding: 5px 0; line-height:1.6;}
+
+#doc910 {
+width:67em;
+}
+
+#doc910 table{margin-bottom:7px;}
+
+body {color:#666; font-size:13px;font-family:Helvetica;}
+
+#score-section h2 {display:block;font-size:30px; line-height:1.5em; color:#066A9B; font-weight:bold;}
+#score-section h2 {margin-bottom:.5em; margin-right:20px;}
+
+#score-summary {line-height: 1.6;}
+#score-summary h1 {font-size:35px; color:#035AA6; font-weight:bold;}
+#score-summary .box {padding:20px 0 20px 20px; border:1px solid #0064B3; margin-bottom:25px;}
+
+.vehicle-name {font-size:20px; color:#066A9B; display:block; font-weight:bold;}
+.vin {font-size:18px; color:#999;}
+.run-date {font-size:13px; color:#aaa;}
+
+
+#score-section h3 {color:#035AA6; font-weight:normal; padding:0;}
+#score-section a {text-decoration:none;}
+#score-section a:hover {text-decoration:underline;}
+
+#iconTable {width:36%;}
+
+
+#vehicle-summary {margin-bottom:1em; padding-bottom:1em; margin-right:50px;}
+#vehicle-summary ul {width:55%;  list-style: none; margin-left:0;}
+#vehicle-summary li span {font-weight:bold; margin-right:.5em;}
+#vehicle-summary h2 {margin-bottom:.5em; margin-right:20px;}
+#vehicle-summary ul.col2 {float:right;padding-left:1px;}
+
+#vehicle-summary .details {width:590px;line-height:1.9;}
+
+/* Owners Images */
+#vehicle-summary .ownersimg {
+height: 105px; 
+width: 229px; 
+float: right;
+}
+#vehicle-summary .ownersimg .pic {
+float: left;
+}
+#vehicle-summary .ownersimg .words {
+padding-top: 7px;
+}
+
+#vehicle-summary .ownersimg p{
+color:#000000; 
+font-size: 10px; 
+width: 109px; 
+height: 20px; 
+clear: right; 
+float: right;
+}
+
+#score-tile {width:210px; float:left; margin-right:1em; margin-bottom:1em;}
+
+#score-right {float:right;margin-right:15px;width:450px;}
+
+.module {width:440px;}
+
+.module {-moz-border-radius:10px 10px 10px 10px;background:none repeat scroll 0 0 #FAFAFA;border:1px solid #DDDDDD;margin-bottom:5px; margin-top:15px;height:148px;}
+
+.module p:last-child {margin-bottom:0;}
+
+#vin-summary { width:auto; margin:10px 0 0 0;}
+
+
+#vin-summary tr td:first-child {
+width:50px;
+}
+
+#vin-summary tr td {
+vertical-align:middle;
+}
+
+
+#buyback img {
+float:left;
+margin:0 1em 1em 0;
+}
+
+#vin-summary img {margin-right:10px;}
+
+#report #vin-summary td {
+color:#444444;
+font-size:13px;
+padding: 0 0 1.5em 0;
+}
+
+#vin-summary td a {
+font-size:11px;
+}
+
+#vin-summary a {
+display:block;
+}
+
+#vin-summary td h3 {
+font-size:15px;
+line-height:1em;
+margin: 0;
+}
+
+#vin-summary td p {font-size:11px; line-height:1em; color:#999999;}
+
+
+
+
+.module .inner {
+padding:5px 10px 10px;
+}
+
+#score-section .module h3 {
+border-bottom:1px solid #DDDDDD;
+font-weight:bold;
+margin-bottom:1em;
+font-size:100%;
+margin-top:0;
+}
+#score.module a {
+display:block;
+}
+
+#center_section {height:385px;}
+
+#homeMainContent .full-report-button a {background:url('/members/report/scoreReport/img/full-history-button.gif') top left no-repeat; display:block;width:286px; height:29px; color:#fff; text-align:center; font-size:16px; margin:1.5em auto 0;}
+#score-section .full-report-button a:hover {text-decoration:none;}
+
+
+table#vin-summary {
+height:300px;
+margin-bottom:10px;
+width:100%;
+}
+
+
+/* ACCIDENT DATA */
+.accident-module {border:1px solid #333; margin-top:1em; background:#fafafa;}
+.accident-module h4 {background-color:#035AA6; background-image: url('/members/report/scoreReport/img/accident-icon.jpg'); background-repeat:no-repeat;padding:5px 10px 5px 40px;color:#fff; font-weight:bold; }
+.accident-module td {border-top:1px solid #ddd;}
+h4 .accident {font-size:16px; margin-right:.5em;}
+
+p.disclaimer {line-height:1.3em; font-size:11px; color:#999; margin-top:1em;}
+
+#accident-data .top p {
+color:#FFFFFF;
+font-size:11px;
+line-height:1em;
+margin-left:15px;
+margin-top:0;
+}
+
+#accident-data .top h3 {
+margin:0.5em 0 0 0;
+}
+
+#homeMainContent .badge {
+float:right;
+margin:0 25px 0 3px;
+}
+
+
+.print-image-only {display:none;}
+
+#dash-report table {border-collapse:separate;}
+
+#vin-dashboard .section table tr th { 
+border-bottom:2px solid #555555;
+border-top:none;
+}
